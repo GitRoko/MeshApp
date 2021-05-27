@@ -1,0 +1,146 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+section, header {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-nav .logo-black img{
+    width: 50px;
+    height: 35px;
+    margin: 22px 0 50px 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.nav .nav-items {
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.nav .nav-items:last-child {
+    margin-right: 20px;
+}
+
+.nav .nav-items a {
+    font-size: 20px;
+    color: #333;
+    line-height: 25px;
+}
+
+.header {
+    background: #FEDE60;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .inner-promo {
+    margin-top: 185px;
+    max-width: 525px;
+}
+.header h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.header h1 span {
+    font-weight: 200;
+}
+
+.header .inner-promo p {
+    margin-top: 55px;
+    font-style: 20px;
+    font-weight: 300;
+}
+
+.header .inner-promo a, .features a {
+    margin-top: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    border: 2px solid #3E3E3E;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 8px 9px rgba(0, 0, 0, 0.0746433));
+}
+
+.apple-link {
+    border-radius: 100px;
+    padding: 15px 20px 15px 70px;
+    margin-right: 40px;
+    position: relative;
+}
+
+.apple-link::before {
+    position: absolute;
+    top: 10px;
+    left: 22px;
+    content: url('../img/apple logo.png');
+}
+
+.google-link {
+    position: relative;
+    border-radius: 12px;
+    padding: 15px 20px 15px 70px;
+}
+
+.google-link::before {
+    position: absolute;
+    top: 13px;
+    left: 22px;
+    content: url('../img/google-play logo.png');
+}
+.header .header-img {
+    max-width: 616px;
+    width: 100%;
+}
+
+.features .h2 {
+    margin-top: 80px;
+    margin-bottom: 90px;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.benefits .benefits__items {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+}
+
+.benefits .benefits__items img {
+    max-width: 210px;
+    margin: 0 auto;
+}
+
+.benefits h4 {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.features .wrap-btn {
+    text-align: center;
+    margin-bottom: 70px;
+}
